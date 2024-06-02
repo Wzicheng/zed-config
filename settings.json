@@ -1,0 +1,58 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "collaboration_panel": {
+    "dock": "right"
+  },
+  "project_panel": {
+    "dock": "left"
+  },
+  "theme": "Catppuccin Mocha",
+  "vim_mode": true,
+  "buffer_font_size": 22,
+  "buffer_font_family": "Hack Nerd Font",
+  "ui_font_size": 22,
+  "ui_font_family": "CodeNewRoman Nerd Font Mono",
+  "cursor_blink": false,
+  "format_on_save": "off",
+  "preferred_line_length": 120,
+  "soft_wrap": "none",
+  "tabs": {
+    "git_status": true
+  },
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/.svn",
+    "**/.hg",
+    "**/CVS",
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    "**/.classpath",
+    "**/.settings",
+    "**/vendor",
+    "**/.tmp*"
+  ],
+  "copilot": {
+    "disabled_globs": [".env*"]
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "proxy": "http://127.0.0.1:1087",
+  "file_types": {
+    "Shell Script": [".aliases"]
+  },
+  "vim": {
+    "use_multiline_find": true,
+    "use_smartcase_find": true,
+    "use_system_clipboard": "always"
+  },
+  "autosave": "on_focus_change"
+}
